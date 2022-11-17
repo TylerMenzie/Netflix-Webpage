@@ -1,0 +1,42 @@
+@charset "ISO-8859-1";
+.generate-movie-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  box-shadow: 5px 5px 10px 0px #5b5252;
+  min-height: 100vh;
+  align-items: flex-start;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  flex-direction: column;
+  justify-content: center;
+}
+.generate-movie-image {
+  top: 0px;
+  left: 176px;
+  width: 1232px;
+  height: 199px;
+  margin: auto;
+  position: absolute;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.generate-movie-textarea {
+  top: 153px;
+  left: 308px;
+  width: 1049px;
+  height: 522px;
+  position: absolute;
+  box-shadow: 5px 5px 10px 0px #d4d4d4;
+}
+.generate-movie-button {
+  top: 21px;
+  left: 11px;
+  position: absolute;
+}
+@media(max-width: 1200px) {
+  .generate-movie-image {
+    top: 21px;
+    left: -4px;
+  }
+}
